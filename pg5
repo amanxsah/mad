@@ -9,7 +9,8 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 TextView lblCounter;
-Button btnStart,btnStop; int counter=0;
+Button btnStart,btnStop; 
+int counter=0;
 boolean running=false;
 @Override
 protected void onCreate(Bundle savedInstanceState) {
